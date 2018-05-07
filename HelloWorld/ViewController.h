@@ -11,6 +11,9 @@
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *Label;
+
+@property (assign) NSDictionary *myDictionary;
+
 - (IBAction)HelloButton:(id)sender;
 
 @end
